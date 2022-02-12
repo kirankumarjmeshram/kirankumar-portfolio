@@ -13,6 +13,16 @@ body {
   color: #4e4e4e;
 }
 
+#skill2{
+  margin-right: 120px;
+}
+@media screen and (max-width: 880px) {
+  #skill2 {
+    margin-right: 50px;
+  }
+}
+
+
 h1,
 h2,
 h3,
