@@ -12,17 +12,33 @@ body {
   background-color: #f5f5f5;
   color: #4e4e4e;
 }
-
-#skill2{
-  margin-right: 120px;
+#skills{
+  height: 100vh;
 }
+#work{
+  height: 100vh;
+}
+#skill2{
+  /* margin-right: 120px; */
+}
+
+/* #contact{
+  height: 80vh;
+} */
 @media screen and (max-width: 880px) {
   #skill2 {
     margin-right: 50px;
   }
 }
+.skillImg{
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+}
+.skillImg >img{
+  height: 75px;
+  padding: 15%;
 
-
+}
 h1,
 h2,
 h3,
@@ -1030,9 +1046,16 @@ a:hover {
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
+.imgimg{
+  padding-bottom: 10px;
+}
+.abcabc{
+  padding: 4.5px;
+}
 
 .contact-mf {
-  margin-top: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
 @media (min-width: 767px) {
   .contact-mf .box-pl2 {
