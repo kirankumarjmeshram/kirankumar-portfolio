@@ -69,7 +69,9 @@ border-radius: 40%;
 }
 
 #header{
+  /* margin-top: -10px; */
 background-color:rgb(59,67,69);
+opacity: 0.9;
 }
 /* #contact{
   height: 80vh;
