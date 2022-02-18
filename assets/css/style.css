@@ -21,7 +21,55 @@ body {
 #skill2{
   /* margin-right: 120px; */
 }
+#hero{
+  height: 100vh;
+  background-color: rgb(59,67,69);
+  margin-top: 9vh;
+}
+.hero1{
+  display: flex;
+  
+}
+.hero11{
+padding-top: 21%;
+padding-right: 5%;
+width: 50%;
+padding-left: -5%;
+}
+.hero11 > h1{
+  color: #eee;
+  text-align: center;
+  font-size: 51px;
+}
+.hero11 > h2{
+  color: #eee;
+  text-align: center;
+  font-size: 42px;
+}
+.hero11 > h3 {
+  color: #eee;
+  text-align: center;
+  
+}
+.resumeBtn {
+  text-align: center;
+  width: 200px;
+  margin-left: 41%;
 
+}
+.hero12{
+  padding-top: 10%;
+width: 50%;
+}
+.hero12 > img{
+width: 120%;
+height: 120%;
+border-radius: 40%;
+}
+
+#header{
+background-color:rgb(59,67,69);
+}
 /* #contact{
   height: 80vh;
 } */
