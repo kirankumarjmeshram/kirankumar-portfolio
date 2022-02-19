@@ -30,6 +30,52 @@ body {
   display: flex;
   
 }
+@media screen and (max-width: 880px) {
+  .hero1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .hero11{
+    padding-top: 11%;
+    padding-right: 5%;
+    width: 100%;
+    padding-left: -5%;
+    justify-content: center;
+    }
+    .hero11 > h1{
+      color: #eee;
+      text-align: center;
+      font-size: 31px;
+    }
+    .hero11 > h2{
+      color: #eee;
+      text-align: center;
+      font-size: 22px;
+    }
+    .hero11 > h3 {
+      color: #eee;
+      text-align: center;
+      justify-content: center;
+      
+    }
+    .resumeBtn {
+      text-align: center;
+      /* margin-left: 41%;   */
+    
+    }
+    .hero12{
+      padding-top: 10%;
+    width: 100%;
+    }
+    .hero12 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    }
+}
+
 .hero11{
 padding-top: 21%;
 padding-right: 5%;
@@ -60,22 +106,23 @@ padding-left: -5%;
 }
 .hero12{
   padding-top: 10%;
-width: 50%;
+  padding-left: 10%;
+  width: 50%;
 }
 .hero12 > img{
-width: 120%;
-height: 120%;
+width: 100%;
+height: 100%;
 border-radius: 40%;
 }
 
 #header{
   /* margin-top: -10px; */
 background-color:rgb(59,67,69);
-opacity: 0.9;
+/* opacity: 0.9; */
 }
-/* #contact{
-  height: 80vh;
-} */
+#contact{
+  height: 100vh;
+}
 @media screen and (max-width: 880px) {
   #skill2 {
     margin-right: 50px;
